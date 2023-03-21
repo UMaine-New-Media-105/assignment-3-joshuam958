@@ -1,0 +1,21 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(0,200,255);
+  addHammer();
+}
+//function for creating thors hammer
+function addHammer(x,y) {
+  translate(x,y)
+  translate(-150,100)
+  noStroke();
+  fill("darkgrey")
+  rect(200, 200, 50, 17);
+  fill("grey");
+  rect(200, 195, 5, 27);
+  rect(245, 195, 5, 27);
+  fill("brown");
+  rect(223, 217, 5, 33);
+}
