@@ -11,3 +11,7 @@ Question 3: Getting the seed to drop wasn't really a problem for me. The problem
 I had to adjust the lightning bolts position on the canvas so it would randomly drop from anywhere on the x axis, but when i translated it in the function, it messed up my mouseIsPressed funtion.
 I solved this by just making to seperate variables, one for the seed, and one for the catcher.
 https://editor.p5js.org/joshua.mann/sketches/nSpSpjd4r
+
+Question 4: I've done enough work with variables now, to where dropping the seed when mousePressed, wasn't really a big obstacle to overcome. The only struggle I faced was having to change many of my values so that the seed would start of the screen and drop faster than before.
+https://editor.p5js.org/joshua.mann/sketches/i5Vf9WtrP
+
