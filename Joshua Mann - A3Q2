@@ -1,0 +1,59 @@
+function setup() {
+  createCanvas(400, 400);
+  hammerHeight = 50;
+  hammerWidth = 50;
+  hammerX = 50;
+  hammerY = 350;
+}
+
+function draw() {
+  background(0, 200, 255);
+  addHammer();
+}
+//function for creating thors hammer
+function addHammer(x, y) {
+  if (mouseIsPressed) {
+    push();
+    translate(x, y);
+    translate(-200, 100);
+    noStroke();
+    fill("darkgrey");
+    rect(200, 200, 50, 17);
+    lightningbolt(0.25, 205, 155);
+    lightningbolt(0.25, 155, 155);
+    fill("brown");
+    rect(223, 217, 5, 33);
+    pop();
+  } else {
+    push();
+    translate(x, y);
+    translate(-200, 100);
+    noStroke();
+    fill("darkgrey");
+    rect(200, 200, 50, 17);
+    fill("grey");
+    rect(200, 195, 5, 27);
+    rect(245, 195, 5, 27);
+    fill("brown");
+    rect(223, 217, 5, 33);
+    pop();
+  }
+}
+
+function lightningbolt(size, x, y) {
+  push();
+  fill("yellow");
+  translate(x, y);
+  scale(size);
+  strokeWeight(3);
+  beginShape();
+  vertex(220, 100);
+  vertex(160, 220);
+  vertex(185, 200);
+  vertex(160, 300);
+  vertex(220, 180);
+  vertex(195, 200);
+  vertex(220, 100);
+  endShape();
+  pop();
+}
