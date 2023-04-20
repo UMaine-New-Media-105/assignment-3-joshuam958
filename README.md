@@ -15,3 +15,5 @@ https://editor.p5js.org/joshua.mann/sketches/nSpSpjd4r
 Question 4: I've done enough work with variables now, to where dropping the seed when mousePressed, wasn't really a big obstacle to overcome. The only struggle I faced was having to change many of my values so that the seed would start of the screen and drop faster than before.
 https://editor.p5js.org/joshua.mann/sketches/i5Vf9WtrP
 
+Question 5: Had a little bit of trouble figuring out how to create the collision detection, got a little bit of help from a friend on that part. Also changed it so that my seed drops at varying speeds between 6 and 9. Added the hammerIsCharged variable for collision detection.
+https://editor.p5js.org/joshua.mann/sketches/yGSCKL4q9
